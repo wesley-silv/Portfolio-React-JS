@@ -1,6 +1,5 @@
 import './App.css'
-import Footer from './components/footer'
-import SuspenseMenu from './components/header'
+import SuspenseMenu from './components/suspense-menu'
 import Media from './components/media'
 
 const App = () => {
@@ -9,10 +8,8 @@ const App = () => {
     <div className="app ">
       <SuspenseMenu />
       <Media />
-      <Footer />
     </div>
   )
-  
 }
 
 export default App
