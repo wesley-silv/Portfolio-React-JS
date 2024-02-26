@@ -1,12 +1,12 @@
 import './App.css'
-import SuspenseMenu from './components/suspense-menu'
+import MenuToggle from './components/menu-toggle'
 import Media from './components/media'
 
 const App = () => {
   
   return (
     <div className="app ">
-      <SuspenseMenu />
+      <MenuToggle />
       <Media />
     </div>
   )
