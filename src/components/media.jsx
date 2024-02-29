@@ -1,11 +1,20 @@
 import {VscGithub} from 'react-icons/vsc'
 import { IoLogoWhatsapp } from "react-icons/io";
-import { SiMicrosoftoutlook, SiDiscord } from "react-icons/si";
+import { SiMicrosoftoutlook, SiDiscord, SiFrontendmentor } from "react-icons/si";
+
+import React, {useState} from 'react'
 
 const Media = () => {
 
+  const [isLocked, setIsLocked] = useState(true)
+
+  const mediaLocked = () => {
+    setIsLocked(!isLocked)
+
+  }
+
   return (
-    <div className="uppercase underline font-extrabold text-blue-500 min-w-full relative z-0">
+    <div className="uppercase underline font-extrabold text-blue-500 min-w-full relative z-0" onClick={mediaLocked}>
       <section className="bg-gray-300 inline-block my-4 px-2 absolute z-10 rounded">
         <a href='https://github.com/wesley-silv'>
           <VscGithub className='m-3 text-black size-7 hover:cursor-pointer hover:border-collapse' target='_blank' title='Go to GitHub'/>
