@@ -2,6 +2,7 @@ import './App.css'
 import MenuToggle from './components/menu-toggle'
 import Media from './components/media'
 import Banner from './components/banner'
+import Footer from './components/footer'
 
 const App = () => {
   
@@ -10,6 +11,7 @@ const App = () => {
       <MenuToggle />
       <Media />
       <Banner />
+      <Footer />
     </div>
   )
 }

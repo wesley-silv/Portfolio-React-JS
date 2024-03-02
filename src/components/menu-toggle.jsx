@@ -1,4 +1,5 @@
 import { RiMenu2Line, RiMenu3Line } from "react-icons/ri";
+
 // Apply the useState of React
 import React, {useState} from "react";
 
@@ -7,10 +8,6 @@ const MenuToggle = () => {
 
   const [isShow, setIsShow] = useState(true)
   const [isList, setIsList] = useState(true)
-
-  const handleClick = () => {
-    setIsShow(!isShow);
-  };
 
   const handleListClick = () => {
     setIsList(!isList)
