@@ -14,16 +14,16 @@ const MenuToggle = () => {
     setIsShow(!isShow)
   }
 
-  let openMenu = < RiMenu2Line className="text-gray-200 size-10 cursor-pointer absolute right-0 mx-4" title="Open menu"/>;
-  let closeMenu = < RiMenu3Line className="text-gray-200 size-10 cursor-pointer absolute right-0 mx-4" title="Close menu" />;
+  let openMenu = < RiMenu2Line className="text-gray-200 size-10 cursor-pointer absolute right-0 mx-4" onClick={handleListClick}/>;
+  let closeMenu = < RiMenu3Line className="text-gray-200 size-10 cursor-pointer absolute right-0 mx-4" onClick={handleListClick}/>;
 
   return (
-    <div className="bg-blue-500 w-full h-16 p-4 relative z-0" onClick={handleListClick}> 
+    <div className="bg-blue-500 w-full h-16 p-3 relative"> 
       {
       isList ? openMenu : closeMenu
       }
       { isShow ? closeMenu :
-        <ul className="up-menu bg-gray-300 text-blue-800 font-bold text-lg w-56 p-2 absolute z-10 right-0 top-20 rounded text-center uppercase max-sm:w-60" >
+        <ul className="bg-gray-300 text-blue-800 font-bold w-60 p-2 py-4 absolute right-0 top-20 rounded text-center text-lg" >
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Home</li>
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">About me</li>
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Stack</li>

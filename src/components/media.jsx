@@ -1,10 +1,29 @@
 import { SiMicrosoftoutlook, SiLinkedin, SiGithub, SiWhatsapp } from "react-icons/si";
+import { IoIosArrowDroprightCircle, IoIosArrowDropdownCircle  } from "react-icons/io";
+
+import React, {useState} from 'react'
 
 const Media = () => {
 
+  const [isOpen, setIsOpen] = useState(true)
+  const [isSlide, setIsSlide] = useState(true)
+
+  const mediaOpen = () => {
+    setIsOpen(!isOpen)
+    setIsSlide(!isSlide)
+  }
+
+  const buttonOpen = <IoIosArrowDroprightCircle className='m-3 text-gray-400 size-8 hover:cursor-pointer hover:border-collapse duration-500'  title='Touch to open' onClick={mediaOpen}/>
+  const buttonClose = <IoIosArrowDropdownCircle className='m-3 text-gray-400 size-8 hover:cursor-pointer hover:border-collapse duration-500'  title='Touch to close' onClick={mediaOpen}/>
   return (
-    <div className="text-blue-500 min-w-full relative right-12 hover:right-0 duration-300 z-0" title='Touch to open'>
-      <section className="bg-gray-300 inline-block my-4 px-2 absolute z-10 rounded">
+    <div className="">
+      {
+        isOpen ? buttonOpen : buttonClose
+      }
+      {
+        isSlide ? <></>
+       : 
+       <section className="bg-gray-300 inline-block absolute z-10 px-4 rounded">
         <a href='https://github.com/wesley-silv' target="_blank">
           <SiGithub className='m-3 text-black size-7 hover:cursor-pointer hover:border-collapse' target='_blank' title='Go to GitHub'/>
         </a>
@@ -18,6 +37,8 @@ const Media = () => {
           <SiMicrosoftoutlook className='m-3 text-blue-500 size-7 hover:cursor-pointer hover:border-collapse' target='_blank' title='Go to Outlook' />
         </a>
       </section>
+      }
+      
     </div>
   )
 }
