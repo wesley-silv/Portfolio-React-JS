@@ -7,7 +7,6 @@ const Stack = () => {
 
   const [isReact, setIsReact] = useState(true)
   const [isJavaScript, setIsJavaScript] = useState(true)
-
   const [isNode, setIsNode] = useState(true)
 
   const handleReact = () => {
@@ -16,14 +15,17 @@ const Stack = () => {
   const handleJavaScript = () => {
     setIsJavaScript(!isJavaScript)
   }
-
   const handleNode = () => {
     setIsNode(!isNode)
   }
 
+
   return (
     <div >
-      <section className="flex mx-24 text-4xl">
+      <p className="mx-44 mb-2 text-gray-700 text-lg">
+        Touch in icons to interact!
+      </p>
+      <section className="flex mx-24 text-5xl md:text-4xl">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1"/>
       <IoLogoCss3 className="text-blue-500 cursor-pointer m-1"/>
       <SiBootstrap className="text-blue-700 cursor-pointer m-1"/>
@@ -34,19 +36,19 @@ const Stack = () => {
       <IoLogoNodejs className="text-green-500 cursor-pointer m-1" onClick={handleNode}/>
       </section>
       <article className="flex mx-32 my-6">
+        {
+          isJavaScript ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
+            JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
+          </article>
+        }
       {
         isReact ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
           React is a fantastic framework! I use to create responsive fronts, structure components in displays, insert icons, change of states that management dynamic interactions to user, and many more. 
         </article>
       }
       {
-        isJavaScript ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-          JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
-        </article>
-      }
-      {
         isNode ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-gray-200 bg-green-500 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-          Node is a runtime of development with JavaScript! 
+          Node is a development ambient to write programs with JavaScript! Very powerful in creations of APIs, integrations with database and also payments methods. With him is possible interact about other systems and to see the code in exection time. 
         </article>
       }
       </article>
