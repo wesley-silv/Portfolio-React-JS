@@ -57,32 +57,35 @@ const Stack = () => {
       <article className="flex mx-32 my-8">
         {
           isHTML ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-            HyperText Markup Language is a structure to construct Web pages and site. It's able of insert differents content types to render for browser, contents such as text, link, images, audio, video, logos beteen others. Your write is easy, because your tags are used to insert contents specifically.
+            HyperText Markup Language is a structure to construct Web pages and site. Her able of insert differents content types to render in a browser, contents such as text, link, images, audio, video, logos beteen others. Your write is easy, because your tags are used to insert contents specifically.
           </article>
         }
         {
           isCSS ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-            JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
+             CSS helps you edit, align, remove, and work on the space between elements on a page. The acronym CSS corresponds to the English expression Cascading StyleSheets, which can be translated as “cascading style sheets”. The CSS is the responsible for give all nice of a Web page. 
           </article>
         }
         {
           isBootStrap ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-gray-300 bg-blue-800 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-            JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
+             Bootstrap is a front-end framework that offers CSS frameworks for quickly and simply creating responsive websites and applications. It can be used for both desktop websites and mobile pages. The your work is able of management the creations spedelly, because have different structures ready to implementation. 
           </article>
         }
         {
           isTailwindCSS ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-            JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
+            The Tailwindcss came to better the experience in the organization of CSS, no need create external files to content the CSS. With your use is possible write many more inside in the HTML file, greate to maintenance and clean structuraction of code in big projets.  
           </article>
         }
-        {
+        
+      </article>
+      <article className="flex mx-32 my-8">
+      {
           isJavaScript ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-            JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
+            JavaScript is a language of programation that use to create my projects, her can be used in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases and call events, and this is just a begin. 
           </article>
         }
         {
           isJquery ? <p className="drop-shadow-lg text-xl"></p> : <article className="w-96 block text-gray-300 bg-blue-800 rounded-md shadow-lg drop-shadow-md p-4 text-center text-lg">
-            JavaScript is a language of programation that use to create my projects, her can be in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases between others use. 
+            The jQuery library is associated with JavaScript elements in HTML to provide more dynamism and usability to web pages. With simplified lines of code, it replaces complex JavaScript scripts with more concise syntax. 
           </article>
         }
         {
