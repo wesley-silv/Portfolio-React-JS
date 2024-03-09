@@ -1,7 +1,8 @@
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { SiTailwindcss, SiBootstrap, SiJquery } from "react-icons/si";
 
-import Reaact, {useState} from 'react'
+import React, {useState} from 'react'
+import CodeSample from "./code-sample";
 
 const Stack = () => {
   const [isHTML, setIsHTML] = useState(true)
@@ -38,10 +39,9 @@ const Stack = () => {
     setIsNode(!isNode)
   }
 
-
   return (
     <div className="">
-      <p className="mx-44 mb-2 text-gray-700 text-lg">
+      <p className="mx-44 mb-4 text-gray-700 text-lg">
         Touch in icons to interact!
       </p>
       <section className="flex mx-24">

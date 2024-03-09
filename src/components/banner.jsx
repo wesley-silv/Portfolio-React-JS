@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 
 const Banner = ({words, time}) => {
+  // words and time are props of use, where words is an array of words and time define the interval of time.
 
   const [indexWord, setIndexWord] = useState(0)
 
