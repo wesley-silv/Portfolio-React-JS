@@ -15,10 +15,10 @@ const Banner = ({words, time}) => {
   return (
     
     <div className="mx-28 mb-12">
-      <h2 className="mb-4 text-4xl font-extrabold italic text-indigo-800 drop-shadow-lg">
+      <h1 className="mb-4 text-5xl font-extrabold italic text-indigo-800 drop-shadow-lg">
       {words[indexWord]}
-      </h2>
-      <h2 className="text-lg font-bold italic text-indigo-500 mx-10">
+      </h1>
+      <h2 className="text-2xl font-bold italic text-indigo-500 mx-10">
         Navigate for all available content!
       </h2>
     </div>
