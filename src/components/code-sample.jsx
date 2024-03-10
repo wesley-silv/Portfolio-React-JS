@@ -31,7 +31,7 @@ const  CodeSample = ({ letters, time }) => {
      
      <section className="mx-24 box-border my-8 p-5 w-auto bg-zinc-800 rounded-md">
      <h2 className="text-green-500 text-lg font-bold my-2">
-        See a small example, this example create a state change: 
+        See a small example! 
       </h2>
       <p className="mb-4 text-xl text-wrap indent-8 italic text-zinc-300 drop-shadow-lg">
         {displayedText}
