@@ -10,3 +10,8 @@ Currently, two official plugins are available:
 ## Personal Portfolio
 
 This portfolio is destined to show my skills of work, technologies and abilities and development in my journey of studies. 
+
+## Technologies used in this project
+- React
+- Tailwindcss
+- 
