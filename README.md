@@ -14,4 +14,3 @@ This portfolio is destined to show my skills of work, technologies and abilities
 ## Technologies used in this project
 - React
 - Tailwindcss
-- 
