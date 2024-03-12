@@ -37,21 +37,21 @@ const Stack = () => {
   const handleNode = () => {
     setIsNode(!isNode)
   }
-
+ 
   return (
     <div className="my-32">
       <p className="mx-40 mb-3 text-gray-800 text-lg">
         Touch in icons to interact!
       </p>
       <section className="flex mx-16">
-      <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-24"  onClick={handleHtml}/>
-      <IoLogoCss3 className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24" onClick={handleCss}/>
-      <SiBootstrap className="text-blue-700 cursor-pointer m-1 size-12 max-sm:size-24" onClick={handleBootstrap}/>
-      <SiTailwindcss className="text-blue-400 cursor-pointer m-1 size-12 max-sm:size-24" onClick={handleTailwindCss}/>
-      <IoLogoJavascript className="text-yellow-500 cursor-pointer m-1 size-12 max-sm:size-24"  onClick={handleJavaScript}/>
-      <SiJquery className="text-blue-600 cursor-pointer m-1 size-12 max-sm:size-24" onClick={handlejquery}/>
-      <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24"  onClick={handleReact}/>
-      <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-24"  onClick={handleNode}/>
+      <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleHtml}/>
+      <IoLogoCss3 className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200" onClick={handleCss}/>
+      <SiBootstrap className="text-blue-700 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200" onClick={handleBootstrap}/>
+      <SiTailwindcss className="text-blue-400 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200" onClick={handleTailwindCss}/>
+      <IoLogoJavascript className="text-yellow-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleJavaScript}/>
+      <SiJquery className="text-blue-600 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200" onClick={handlejquery}/>
+      <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleReact}/>
+      <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleNode}/>
       </section>
       <article className="flex mx-24 my-8">
         { isHTML ? <></> : <article className=" block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
