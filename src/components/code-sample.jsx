@@ -27,10 +27,9 @@ const  CodeSample = ({ letters, time }) => {
   }, [letters, time, indexLetter]);
 
   return (
-    <div className="my-16">
-     
-     <section className="mx-24 box-border my-8 p-5 w-auto bg-zinc-800 rounded-md">
-     <h2 className="text-green-500 text-lg font-bold my-2">
+    <div className="my-8">
+     <section className="mx-24 p-5 box-border w-auto bg-zinc-800 rounded-lg shadow-lg drop-shadow-lg ">
+     <h2 className="text-orange-500 text-lg font-bold my-2">
         See a small example! 
       </h2>
       <p className="mb-4 text-xl text-wrap indent-8 italic text-zinc-300 drop-shadow-lg">
