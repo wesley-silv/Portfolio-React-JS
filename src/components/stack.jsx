@@ -53,7 +53,7 @@ const Stack = () => {
       <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleReact}/>
       <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleNode}/>
       </section>
-      <article className="flex flex-row justify-between m-8">
+      <article className="flex flex-row justify-center m-8">
         { isHTML ? <></> : <article className=" block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
             HyperText Markup Language is a structure to construct Web pages and site. Her able of insert differents content types to render in a browser, contents such as text, link, images, audio, video, logos beteen others. Your write is easy, because your tags are used to insert contents specifically.
           </article>
@@ -75,7 +75,7 @@ const Stack = () => {
         }
         
       </article>
-      <article className="flex flex-row justify-between m-8">
+      <article className="flex flex-row justify-center m-8">
       {
           isJavaScript ? <></> : <article className=" block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
             JavaScript is a language of programation that use to create my projects, her can be used in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases and call events, and this is just a begin. 
