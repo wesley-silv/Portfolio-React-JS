@@ -6,7 +6,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const Tools = () => {
   return (
-    <div className="bg-gray-300 p-16">
+    <div className="bg-gray-300 p-16 rounded shadow-lg drop-shadow-lg">
       <h2 className="text-center text-2xl text-blue-700 font-bold pb-2 uppercase">
         I like from use different tools in my application, here is some hers.
       </h2>
