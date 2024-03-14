@@ -4,6 +4,7 @@ import Media from './components/media'
 import Banner from './components/banner'
 import Stack from './components/stack'
 import CodeSample from './components/code-sample'
+import Tools from './components/tools'
 
 const App = () => {
   
@@ -29,6 +30,7 @@ const App = () => {
       <Media />
       <Banner  words={words} time={viewTime}/>
       <Stack /> 
+      <Tools />
       <CodeSample letters={writing} time={viewLettersTime}/>
     </div>
   )
