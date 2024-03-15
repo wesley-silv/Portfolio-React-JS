@@ -39,11 +39,11 @@ const Stack = () => {
   }
  
   return (
-    <div className="my-32">
+    <div className="my-36 text-center">
       <p className="mx-40 mb-3 text-gray-800 text-lg">
         Touch in icons to interact!
       </p>
-      <section className="flex mx-16">
+      <section className="flex flex-row justify-center">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleHtml}/>
       <IoLogoCss3 className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200" onClick={handleCss}/>
       <SiBootstrap className="text-blue-700 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200" onClick={handleBootstrap}/>
@@ -53,7 +53,7 @@ const Stack = () => {
       <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleReact}/>
       <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleNode}/>
       </section>
-      <article className="flex mx-24 my-8">
+      <article className="flex flex-row justify-center m-8">
         { isHTML ? <></> : <article className=" block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
             HyperText Markup Language is a structure to construct Web pages and site. Her able of insert differents content types to render in a browser, contents such as text, link, images, audio, video, logos beteen others. Your write is easy, because your tags are used to insert contents specifically.
           </article>
@@ -75,7 +75,7 @@ const Stack = () => {
         }
         
       </article>
-      <article className="flex mx-24 my-8">
+      <article className="flex flex-row justify-center m-8">
       {
           isJavaScript ? <></> : <article className=" block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
             JavaScript is a language of programation that use to create my projects, her can be used in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases and call events, and this is just a begin. 
@@ -92,7 +92,7 @@ const Stack = () => {
         </article> : <></> 
         }
         {
-        isNode ? <></> : <article className=" block text-gray-200 bg-green-500 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
+        isNode ? <></> : <article className=" block text-gray-200 bg-green-600 rounded-md shadow-lg drop-shadow-md p-4 mx-2 text-center text-lg">
           Node is a development ambient to write programs with JavaScript! Very powerful in creations of APIs, integrations with database and also payments methods. With him is possible interact about other systems and to see the code in exection time. 
         </article>
         }

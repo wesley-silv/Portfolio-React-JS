@@ -9,7 +9,7 @@ import Tools from './components/tools'
 const App = () => {
   
   const words = ["I'm Wesley Silva", "I'm a Front-end developer", 'Welcome to my portfolio', 'Here you will can find all about me.', 'I hope that you like from explore this portfolio!'];
-  const viewTime = 2400; 
+  const viewTime = 2800; 
 
   const writing = [`const updateText = () => {
     if (currentIndex < currentLetters.length) {
