@@ -13,17 +13,15 @@ const Media = () => {
     setIsSlide(!isSlide)
   }
 
-  const buttonOpen = <IoIosArrowDroprightCircle className='m-3 text-gray-400 size-8 hover:cursor-pointer hover:border-collapse duration-500'  title='Touch to open' onClick={mediaOpen}/>
-  const buttonClose = <IoIosArrowDropdownCircle className='m-3 text-gray-400 size-8 hover:cursor-pointer hover:border-collapse duration-500'  title='Touch to close' onClick={mediaOpen}/>
+  const buttonOpen = <IoIosArrowDroprightCircle className='m-3 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Touch to open' onClick={mediaOpen}/>
+  const buttonClose = <IoIosArrowDropdownCircle className='m-3 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-500'  title='Touch to close' onClick={mediaOpen}/>
   return (
-    <div className="">
+    <div className="fixed z-10">
       {
         isOpen ? buttonOpen : buttonClose
       }
       {
-        isSlide ? <></>
-       : 
-       <section className="bg-gray-300 inline-block absolute z-10 px-4 rounded">
+        isSlide ? <section className="bg-gray-300 inline-block absolute z-10 px-4 rounded">
         <a href='https://github.com/wesley-silv' target="_blank">
           <SiGithub className='m-3 text-black size-7 hover:cursor-pointer hover:border-collapse  hover:scale-125' target='_blank' title='Go to GitHub'/>
         </a>
@@ -37,6 +35,8 @@ const Media = () => {
           <SiMicrosoftoutlook className='m-3 text-blue-500 size-7 hover:cursor-pointer hover:border-collapse hover:scale-125' target='_blank' title='Go to Outlook' />
         </a>
       </section>
+       : 
+       <></>
       }
       
     </div>

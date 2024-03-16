@@ -15,7 +15,7 @@ const Banner = ({words, time}) => {
 
   return (
     
-    <div className="mx-28 mb-12">
+    <div className="mx-32 my-12 mb-12">
       <h1 className="mb-4 text-5xl font-extrabold italic text-indigo-800 drop-shadow-lg">
       {words[indexWord]}
       </h1>
