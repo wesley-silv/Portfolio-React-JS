@@ -14,17 +14,17 @@ const Tools = () => {
       Each of them provides better performance for the project.
       </h3>
 
-      <section className="flex flex-row justify-between uppercase">
-        <article className="flex flex-col content-justify items-center gap-3">
-          <p className="text-xl text-orange-600 font-bold pb-16">
+      <section className="flex flex-col lg:flex-row justify-between uppercase">
+        <article className="flex flex-col content-justiy items-center gap-3 my-4">
+          <p className="text-xl text-orange-600 font-bold pb-8 lg:pb-16">
             Code monitoring 
           </p>
           <FaGitAlt className="text-[#F05032] size-12 max-sm:size-24" />
           <FaSquareGithub className="text-[#181717] mx-16 size-12 max-sm:size-24" />
           <FaBitbucket className="text-[#0052CC] mx-16 size-12 max-sm:size-24" />
         </article>
-        <article className="flex flex-col content-justify items-center gap-3">
-          <p className="text-xl text-orange-600 font-bold pb-16">
+        <article className="flex flex-col content-justify items-center gap-3 my-4">
+          <p className="text-xl text-orange-600 font-bold pb-8 lg:pb-16">
             APIs Connection 
           </p>
           <FaNpm className="text-[#CB3837] size-12 max-sm:size-24" />
@@ -32,16 +32,16 @@ const Tools = () => {
           <SiPostman className="text-[#DD3A0A] size-12 max-sm:size-24" />
           <SiHeroku className="text-[#430098] size-12 max-sm:size-24" />
         </article>
-        <article className="flex flex-col content-justify items-center gap-3">
-          <p className="text-xl text-orange-600 font-bold pb-16">
+        <article className="flex flex-col content-justify items-center gap-3 my-4">
+          <p className="text-xl text-orange-600 font-bold pb-8 lg:pb-16">
             Database integration
           </p>
           <SiMongodb className="text-[#47A248] size-12 max-sm:size-24" />
           <SiMysql className="text-[#4479A1] size-12 max-sm:size-24" />
           <BiLogoPostgresql className="text-[#4169E1] size-12 max-sm:size-24" />
         </article>
-        <article className="flex flex-col content-justify items-center gap-3">
-          <p className="text-xl text-orange-600 font-bold pb-16">
+        <article className="flex flex-col content-justify items-center gap-3 my-4">
+          <p className="text-xl text-orange-600 font-bold pb-8 lg:pb-16">
             Software management
           </p>
           <FaConfluence className="text-[#172B4D] size-12 max-sm:size-24" />
