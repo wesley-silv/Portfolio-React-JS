@@ -39,7 +39,7 @@ const Stack = () => {
   }
  
   return (
-    <div className="my-36 text-center">
+    <div className="my-40 text-center">
       <p className="mx-40 mb-3 text-gray-800 text-lg">
         Touch in icons to interact!
       </p>
@@ -53,7 +53,7 @@ const Stack = () => {
       <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleReact}/>
       <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-24 hover:rotate-[18deg] duration-200"  onClick={handleNode}/>
       </section>
-      <article className="flex flex-col justify-center mx-8 my-4 sm:flex-row md:flex-row sm:my-2 md:my-2">
+      <article className="flex flex-col justify-center mx-8 my-4 lg:flex-row sm:my-2 md:my-2">
         { isHTML ? <></> : <article className="block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
             HyperText Markup Language is a structure to construct Web pages and site. Her able of insert differents content types to render in a browser, contents such as text, link, images, audio, video, logos beteen others. Your write is easy, because your tags are used to insert contents specifically.
           </article>
@@ -64,9 +64,10 @@ const Stack = () => {
           </article>
         }
         {
-          isBootStrap ? <></> : <article className="block text-gray-300 bg-blue-800 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
+          isBootStrap ? <article className="block text-gray-300 bg-blue-800 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
              Bootstrap is a front-end framework that offers CSS frameworks for quickly and simply creating responsive websites and applications. It can be used for both desktop websites and mobile pages. The your work is able of management the creations spedelly, because have different structures ready to implementation. 
           </article>
+          : <></>
         }
         {
           isTailwindCSS ? <></> : <article className="block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
@@ -75,7 +76,7 @@ const Stack = () => {
         }
         
       </article>
-      <article className="flex flex-col justify-center mx-8 my-4 sm:flex-row md:flex-row sm:my-2 md:my-2">
+      <article className="flex flex-col justify-center mx-8 my-4 lg:flex-row sm:my-2 md:my-2">
       {
           isJavaScript ? <></> : <article className="block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
             JavaScript is a language of programation that use to create my projects, her can be used in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases and call events, and this is just a begin. 
@@ -92,9 +93,10 @@ const Stack = () => {
         </article> : <></> 
         }
         {
-        isNode ? <></> : <article className="block text-gray-200 bg-green-600 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
+        isNode ? <article className="block text-gray-200 bg-green-600 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
           Node is a development ambient to write programs with JavaScript! Very powerful in creations of APIs, integrations with database and also payments methods. With him is possible interact about other systems and to see the code in exection time. 
         </article>
+        :  <></>
         }
       </article>
     </div>
