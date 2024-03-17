@@ -23,7 +23,7 @@ const MenuToggle = () => {
       isList ? openMenu : closeMenu
       }
       { isShow ? closeMenu :
-        <ul className="bg-gray-300 text-blue-800 font-bold w-[20%] my-4 p-2 py-4 absolute z-10 right-0 top-20 rounded text-center text-xl" >
+        <ul className="bg-gray-300 text-blue-800 font-bold w-[20%] max-lg:w-[45%] my-4 p-2 py-4 absolute z-10 right-0 top-20 rounded text-center text-xl" >
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Home</li>
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">About me</li>
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Stack</li>
