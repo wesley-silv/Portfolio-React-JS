@@ -27,7 +27,7 @@ const  CodeSample = ({ letters, time }) => {
   }, [letters, time, indexLetter]);
 
   return (
-    <div className="my-24 mx-8 justify-center">
+    <div className="my-28 max-md:my-24 max-md:mx-0 mx-8 justify-center">
      <section className="mx-24 p-8 box-border w-auto bg-zinc-800 rounded-lg shadow-lg drop-shadow-lg ">
      <h2 className="text-green-400 text-lg font-bold my-2">
         What I think about the programing? 
