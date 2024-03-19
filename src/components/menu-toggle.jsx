@@ -1,6 +1,5 @@
 import { RiMenu2Line, RiMenu3Line } from "react-icons/ri";
 
-// Apply the useState of React
 import React, {useState} from "react";
 
 
@@ -28,7 +27,7 @@ const MenuToggle = () => {
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">About me</li>
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Stack</li>
         <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Projects</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Interest</li>
+        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Budgets</li>
         </ul>
       }
     </div>
