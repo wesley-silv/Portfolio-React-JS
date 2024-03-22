@@ -5,6 +5,7 @@ import Banner from './components/banner'
 import Stack from './components/stack'
 import CodeSample from './components/code-sample'
 import Tools from './components/tools'
+import Description from './components/description'
 
 const App = () => {
   
@@ -19,6 +20,7 @@ const words = ["I'm Wesley Silva", "I'm a Front-end developer", 'Welcome to my p
       <MenuToggle />
       <Media />
       <Banner  words={words} time={viewTime}/>
+      <Description />
       <CodeSample letters={writing} time={viewLettersTime}/>
       <Stack /> 
       <Tools />
