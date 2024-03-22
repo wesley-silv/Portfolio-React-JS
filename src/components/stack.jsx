@@ -41,7 +41,7 @@ const Stack = () => {
   return (
     <div className="my-40 text-center">
       <p className="mx-40 mb-3 text-gray-800 text-lg">
-        Touch in icons to interact!
+        Clique nos ícones para interagir!
       </p>
       <section className="flex flex-row justify-center mb-10">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200"  onClick={handleHtml}/>
@@ -51,27 +51,27 @@ const Stack = () => {
       <IoLogoJavascript className="text-yellow-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200"  onClick={handleJavaScript}/>
       <SiJquery className="text-blue-600 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200" onClick={handlejquery}/>
       <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:animate-spin duration-500"  onClick={handleReact}/>
-      <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:animate-pulse duration-500"  onClick={handleNode}/>
+      <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200"  onClick={handleNode}/>
       </section>
       <article className="flex flex-col justify-center mx-8 my-4 lg:flex-row sm:my-2 md:my-2">
         { isHTML ? <></> : <article className="block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-            HyperText Markup Language is a structure to construct Web pages and site. Her able of insert differents content types to render in a browser, contents such as text, link, images, audio, video, logos beteen others. Your write is easy, because your tags are used to insert contents specifically.
+        HyperText Markup Language é uma estrutura para construir páginas da Web e sites. Ela é capaz de inserir diversos tipos de conteúdo para renderizar em um navegador, conteúdos como texto, link, imagens, áudio, vídeo, logotipos entre outros. Sua escrita é fácil, pois suas tags servem para inserir conteúdos especificamente.
           </article>
         }
         {
           isCSS ? <></> : <article className="block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-             CSS helps you edit, align, remove, and work on the space between elements on a page. The acronym CSS corresponds to the English expression Cascading StyleSheets, which can be translated as “cascading style sheets”. The CSS is the responsible for give all nice of a Web page. 
+             O Cascading Style Sheets ajuda a editar, alinhar, remover e trabalhar no espaço entre os elementos de uma página. A sigla CSS corresponde à expressão em inglês Cascading StyleSheets, que pode ser traduzida como “folhas de estilo em cascata”. O CSS é o responsável por dar todo o charme de uma página Web. 
           </article>
         }
         {
           isBootStrap ? <article className="block text-gray-300 bg-blue-800 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-             Bootstrap is a front-end framework that offers CSS frameworks for quickly and simply creating responsive websites and applications. It can be used for both desktop websites and mobile pages. The your work is able of management the creations spedelly, because have different structures ready to implementation. 
+             Bootstrap é uma estrutura front-end que oferece estruturas CSS para a criação rápida e simples de sites e aplicativos responsivos. Ele pode ser usado tanto para sites de desktop quanto para páginas móveis. A sua obra é capaz de gerenciar as criações com agilidade, pois possui diferentes estruturas prontas para implementação.
           </article>
           : <></>
         }
         {
           isTailwindCSS ? <></> : <article className="block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-            The Tailwindcss came to better the experience in the organization of CSS, no need create external files to content the CSS. With your use is possible write many more inside in the HTML file, greate to maintenance and clean structuraction of code in big projets.  
+            O Tailwindcss veio para melhorar a experiência na organização de CSS, não sendo necessário criar arquivos externos para conteúdo do CSS. Com seu uso é possível escrever muito mais dentro do arquivo HTML, ótimo para manutenção e estruturação limpa de código em grandes projetos. 
           </article>
         }
         
@@ -79,22 +79,22 @@ const Stack = () => {
       <article className="flex flex-col justify-center mx-8 my-4 lg:flex-row sm:my-2 md:my-2">
       {
           isJavaScript ? <></> : <article className="block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-            JavaScript is a language of programation that use to create my projects, her can be used in different integrations such as, creations of API, apply dynamism in the interactions of user with display, activete mechanism of serch in browsers, do query in databases and call events, and this is just a begin. 
+            JavaScript é uma linguagem de programação que utilizo para criar meus projetos, ela pode ser utilizada em diversas integrações como, criações de API, aplicar dinamismo nas interações do usuário com display, ativar mecanismo de busca em navegadores, fazer consultas em bancos de dados e chamar eventos, e isso é apenas o começo.
           </article>
         }
         {
           isJquery ? <></> : <article className="block text-gray-300 bg-blue-800 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-            The jQuery library is associated with JavaScript elements in HTML to provide more dynamism and usability to web pages. With simplified lines of code, it replaces complex JavaScript scripts with more concise syntax. 
+            A biblioteca jQuery está associada a elementos JavaScript em HTML para proporcionar mais dinamismo e usabilidade às páginas web. Com linhas de código simplificadas, ele substitui scripts JavaScript complexos por uma sintaxe mais concisa.
           </article>
         }
         {
          isReact ? <article className="block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-          React is a fantastic framework! I use to create responsive fronts, structure components in displays, insert icons, change of states that management dynamic interactions to user, and many more. 
+          React é uma estrutura fantástica! Utilizo para criar frentes responsivas, estruturar componentes em displays, inserir ícones, mudança de estados que gerenciam interações dinâmicas com o usuário e muito mais. 
         </article> : <></> 
         }
         {
         isNode ? <article className="block text-gray-200 bg-green-600 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-          Node is a development ambient to write programs with JavaScript! Very powerful in creations of APIs, integrations with database and also payments methods. With him is possible interact about other systems and to see the code in exection time. 
+          Node é um ambiente de desenvolvimento para escrever programas com JavaScript! Muito poderoso em criações de APIs, integrações com banco de dados e também métodos de pagamentos. Com ele é possível interagir com outros sistemas e visualizar o código em tempo de execução. 
         </article>
         :  <></>
         }

@@ -30,7 +30,7 @@ const  CodeSample = ({ letters, time }) => {
     <div className="my-28 max-md:my-24 max-md:mx-0 mx-8 justify-center">
      <section className="mx-24 p-8 box-border w-auto bg-zinc-800 rounded-lg shadow-lg drop-shadow-lg ">
      <h2 className="text-green-400 text-lg font-bold my-2">
-        What I think about the programing? 
+        O que eu penso sobre a programação! 
       </h2>
       <p className="mb-4 text-xl text-wrap indent-8 italic text-gray-300 drop-shadow-lg">
         {displayedText}

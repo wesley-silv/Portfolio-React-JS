@@ -20,7 +20,7 @@ const Banner = ({words, time}) => {
       {words[indexWord]}
       </h1>
       <h2 className="text-2xl font-bold italic text-indigo-500 mx-10">
-        Navigate for all available content!
+        Navegue e conheça todo o contéudo!
       </h2>
     </div>
   )
