@@ -23,11 +23,11 @@ const MenuToggle = () => {
       }
       { isShow ? closeMenu :
         <ul className="bg-gray-300 text-blue-800 font-bold w-[20%] max-lg:w-[45%] my-4 p-2 py-4 absolute z-10 right-0 top-20 rounded text-center text-xl" >
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Home</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">About me</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Stack</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Projects</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Budgets</li>
+        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Início</li>
+        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Projetos</li>
+        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Experiências</li>
+        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Orçamentos</li>
+        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Interesses</li>
         </ul>
       }
     </div>
