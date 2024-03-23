@@ -1,3 +1,4 @@
+import { FaGear } from "react-icons/fa6";
 import React, { useState, useEffect } from "react";
 
 const  CodeSample = ({ letters, time }) => {
@@ -26,10 +27,11 @@ const  CodeSample = ({ letters, time }) => {
     return () => clearInterval(intervalId);
   }, [letters, time, indexLetter]);
 
+    
   return (
     <div className="my-28 max-md:my-24 max-md:mx-0 mx-8 justify-center">
-     <section className="mx-24 p-8 box-border w-auto bg-zinc-800 rounded-lg shadow-lg drop-shadow-lg ">
-     <h2 className="text-green-400 text-lg font-bold my-2">
+     <section className="mx-12 p-8 box-border w-auto bg-zinc-800 rounded-lg shadow-lg drop-shadow-lg ">
+     <h2 className="text-green-400 text-xl font-extrabold my-2">
         O que eu penso sobre a programação! 
       </h2>
       <p className="mb-4 text-xl text-wrap indent-8 italic text-gray-300 drop-shadow-lg">
