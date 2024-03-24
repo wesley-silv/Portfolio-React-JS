@@ -1,7 +1,5 @@
 import { RiMenu2Line, RiMenu3Line } from "react-icons/ri";
-
 import React, {useState} from "react";
-
 
 const MenuToggle = () => {
 
@@ -22,12 +20,12 @@ const MenuToggle = () => {
       isList ? openMenu : closeMenu
       }
       { isShow ? closeMenu :
-        <ul className="bg-gray-300 text-blue-800 font-bold w-[20%] max-lg:w-[45%] my-4 p-2 py-4 absolute z-10 right-0 top-20 rounded text-center text-xl" >
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Início</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Projetos</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Experiências</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Orçamentos</li>
-        <li className="hover:cursor-pointer hover:bg-gray-400 rounded px-12">Interesses</li>
+        <ul className="bg-gray-300 text-blue-800 font-bold w-[25%] max-lg:w-[60%] my-2 p-2 py-4 absolute z-10 right-0 top-20 rounded text-center text-xl" >
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Início</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Projetos</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Experiências</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Orçamentos</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Interesses</li>
         </ul>
       }
     </div>
