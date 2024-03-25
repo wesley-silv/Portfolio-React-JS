@@ -43,7 +43,7 @@ const Stack = () => {
       <p className="mx-40 mb-3 text-gray-800 text-lg">
         Clique nos ícones para interagir!
       </p>
-      <section className="flex flex-row justify-center mb-10">
+      <section className="flex flex-row max-lg:flex-wrap justify-center mb-10">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200"  onClick={handleHtml}/>
       <IoLogoCss3 className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200" onClick={handleCss}/>
       <SiBootstrap className="text-blue-700 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200" onClick={handleBootstrap}/>
@@ -53,7 +53,7 @@ const Stack = () => {
       <IoLogoReact className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:animate-spin duration-500"  onClick={handleReact}/>
       <IoLogoNodejs className="text-green-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:rotate-[18deg] duration-200"  onClick={handleNode}/>
       </section>
-      <article className="flex flex-col justify-center mx-8 my-4 lg:flex-row sm:my-2 md:my-2">
+      <article className="flex flex-col justify-center mx-8 my-2 lg:flex-row ">
         { isHTML ? <></> : <article className="block text-white bg-red-500 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
         HyperText Markup Language é uma estrutura para construir páginas da Web e sites. Ela é capaz de inserir diversos tipos de conteúdo para renderizar em um navegador, conteúdos como texto, link, imagens, áudio, vídeo, logotipos entre outros. Sua escrita é fácil, pois suas tags servem para inserir conteúdos especificamente.
           </article>
@@ -76,7 +76,7 @@ const Stack = () => {
         }
         
       </article>
-      <article className="flex flex-col justify-center mx-8 my-4 lg:flex-row sm:my-2 md:my-2">
+      <article className="flex flex-col justify-center mx-8 my-2 lg:flex-row">
       {
           isJavaScript ? <></> : <article className="block text-black bg-yellow-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
             JavaScript é uma linguagem de programação que utilizo para criar meus projetos, ela pode ser utilizada em diversas integrações como, criações de API, aplicar dinamismo nas interações do usuário com display, ativar mecanismo de busca em navegadores, fazer consultas em bancos de dados e chamar eventos, e isso é apenas o começo.
