@@ -9,7 +9,7 @@ import Description from './components/description'
 
 const App = () => {
   
-const words = ["Eu sou Wesley Silva", "Sou Desenvolvedor Front-end", 'Seja bem-vindo ao meu portifólio', 'Aqui você poderá encontrar tudo sobre mim.', 'Espero que você goste de explorar este projeto.'];
+const words = ["Olá, o meu nome é Wesley D. Silva", "Eu Sou Desenvolvedor Front-end Web e Mobile", 'Seja bem-vindo ao meu portifólio', 'Aqui você poderá encontrar tudo sobre mim', 'Espero que você goste de explorar este projeto'];
   const viewTime = 2800; 
 
   const writing = [`"Para mim programar é alcançar horizontes e lugares fantásticos de um mesmo lugar. Um lugar onde não há limitações, pois, se eu posso pensar eu sou capaz de fazer."`]
