@@ -4,7 +4,7 @@ const Description = () => {
     <div className="my-52 mx-8">
       <section className="flex flex-row max-lg:flex-col justify-between items-center max-lg:mx-4">
 
-        <article className="bg-gray-200 flex flex-col items-center shadow-xl rounded-lg p-8 m-4 max-lg:mx-auto lg:w-[50%] lg:h-[380px] lg:hover:scale-110 lg:hover:cursor-pointer lg:hover:text-blue-700 duration-100">
+        <article className="bg-gray-200 flex flex-col items-center shadow-xl rounded-lg p-8 m-4 max-lg:mx-auto lg:w-[54%] lg:h-[380px] lg:hover:scale-110 lg:hover:cursor-pointer lg:hover:text-blue-700 duration-100">
           <img src="/Wesley S. Conceição.jpg" alt="Imagem de um homem branco de cabelos pretos, ele está usando óculos e sorrindo, está vestindo uma camisa preta." className="rounded-full shadow-xl drop-shadow-lg w-48 h-48"/>
           <h4 className="m-4 text-lg text-center font-bold drop-shadow-lg">
             Ciência da Computação
