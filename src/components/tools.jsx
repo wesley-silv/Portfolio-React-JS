@@ -4,7 +4,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const Tools = () => {
   return (
-    <div className="bg-gray-300 p-16 mx-8 my-16 rounded shadow-lg drop-shadow-lg bg-gradient-to-t from-gray-400 to-gray-300">
+    <div className="p-12 mx-8 my-16 rounded shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
 
       <h2 className="text-center text-2xl text-blue-700 font-bold pb-2 uppercase">
         Sempre busco algo novo para usar e melhorar minhas aplicações. 
