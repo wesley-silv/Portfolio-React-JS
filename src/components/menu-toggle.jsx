@@ -23,7 +23,18 @@ const MenuToggle = () => {
 
   return (
     <div className="bg-gradient-to-r from-blue-700 to-blue-500 w-full h-16 p-3 relative"> 
-      
+      {/* {
+      isList ? openMenu : closeMenu
+      }
+      { isShow ? closeMenu :
+        <ul className="bg-gray-300 text-blue-800 font-bold w-[25%] max-lg:w-[60%] my-2 p-2 py-4 absolute z-10 right-0 top-20 rounded text-center text-xl" >
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Início</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Projetos</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Experiências</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Orçamentos</li>
+        <li className="hover:cursor-pointer hover:scale-125 rounded px-12">Interesses</li>
+        </ul>
+      } */}
     </div>
   )
 }
