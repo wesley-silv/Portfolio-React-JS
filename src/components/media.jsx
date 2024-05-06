@@ -13,8 +13,8 @@ const Media = () => {
     setIsSlide(!isSlide)
   }
 
-  const buttonOpen = <IoIosArrowDroprightCircle className='mx-4 my-2 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para fechar' onClick={mediaOpen}/>
-  const buttonClose = <IoIosArrowDropdownCircle className='mx-4 my-2 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para abrir' onClick={mediaOpen}/>
+  const buttonOpen = <IoIosArrowDroprightCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para fechar' onClick={mediaOpen}/>
+  const buttonClose = <IoIosArrowDropdownCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para abrir' onClick={mediaOpen}/>
 
   return (
     <div className="fixed z-10">
