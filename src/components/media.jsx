@@ -13,8 +13,8 @@ const Media = () => {
     setIsSlide(!isSlide)
   }
 
-  const buttonOpen = <IoIosArrowDroprightCircle className='mx-4 my-2 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para abrir' onClick={mediaOpen}/>
-  const buttonClose = <IoIosArrowDropdownCircle className='mx-4 my-2 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-500'  title='Clique para fechar' onClick={mediaOpen}/>
+  const buttonOpen = <IoIosArrowDroprightCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para fechar' onClick={mediaOpen}/>
+  const buttonClose = <IoIosArrowDropdownCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para abrir' onClick={mediaOpen}/>
 
   return (
     <div className="fixed z-10">
@@ -22,7 +22,7 @@ const Media = () => {
         isOpen ? buttonOpen : buttonClose
       }
       {
-        isSlide ? <section className="bg-gray-200 inline-block absolute z-10 mx-1 px-4 rounded ">
+        isSlide ? <section className="bg-blue-300 inline-block absolute z-10 mx-1 px-4 rounded border-solid border-2 border-blue-500">
         <a href='https://github.com/wesley-silv' target="_blank">
           <SiGithub className='m-3 text-black size-7 hover:cursor-pointer hover:border-collapse  hover:scale-125' target='_blank' title='Ir para o GitHub'/>
         </a>

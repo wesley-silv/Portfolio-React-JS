@@ -15,7 +15,7 @@ const Banner = ({words, time}) => { // words and time are props of use, where wo
 
   return (
     
-    <div className="mx-36 my-12 mb-12">
+    <div className="my-16 text-center">
       <h1 className="mb-4 text-5xl font-extrabold italic text-indigo-800 drop-shadow-lg">
       {words[indexWord]}
       </h1>
