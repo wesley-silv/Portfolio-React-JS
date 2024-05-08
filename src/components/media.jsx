@@ -14,7 +14,7 @@ const Media = () => {
   }
 
   const buttonOpen = <IoIosArrowDroprightCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para fechar' onClick={mediaOpen}/>
-  const buttonClose = <IoIosArrowDropdownCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-collapse duration-600'  title='Clique para abrir' onClick={mediaOpen}/>
+  const buttonClose = <IoIosArrowDropdownCircle className='m-4 mx-8 text-blue-600 size-8 hover:cursor-pointer hover:border-colgitlapse duration-600'  title='Clique para abrir' onClick={mediaOpen}/>
 
   return (
     <div className="fixed z-10">
