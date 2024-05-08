@@ -1,9 +1,9 @@
 
 const Description = () => {
   return (
-    <div className="my-52 mx-8">
+    <div className="my-44 mx-8">
       <section className="flex flex-row max-lg:flex-col justify-between items-center max-lg:mx-4">
-        <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:w-[54%] lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
+        <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[24rem] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
           <img src="/Wesley S. Conceição.jpg" alt="Imagem de um homem branco de cabelos pretos, ele está usando óculos e sorrindo, está vestindo uma camisa preta." className="rounded-md shadow-xl drop-shadow-lg w-48 h-48"/>
           <h4 className="m-5 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
           Wesley da Silva 
@@ -13,7 +13,7 @@ const Description = () => {
           </p>
         </article>
 
-        <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-300 lg:hover:cursor-pointer">
+        <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[24rem] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
           <h4 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             Sobre mim
           </h4>
@@ -26,7 +26,7 @@ const Description = () => {
             <span className="text-blue-900 text-lg font-bold">Alura</span> desenvolvimento web focado em Node, Express, Mongo DB, Mongoose e APIs
           </p>
         </article>
-        <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
+        <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[24rem] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
           <h4 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             Competências
           </h4>
@@ -38,6 +38,15 @@ const Description = () => {
         </article>
       </section>
       <section className="flex flex-row max-lg:flex-col justify-between items-center max-lg:mx-4">
+          <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
+            <h4 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
+              Experiências
+            </h4>
+            <p className="drop-shadow-lg">
+              <span className="text-blue-900 text-lg font-bold ">Web </span>Proficiência em desenvolvimento front-end na criação de páginas, blogs, posters, anúncios, portifólios, banners e também e-commerce.
+              Criando aplicações dos mais diversos tipos, buscando sempre atender de forma clara e concreta todas as pespectivas e projeções estabelecidas na análise do escopo do projeto.  
+            </p>
+          </article>
         <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
             <h4 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
               Estudos
@@ -47,15 +56,6 @@ const Description = () => {
             </p>
             <p className="drop-shadow-lg">
               <span className="text-blue-900 text-lg font-bold">Inglês </span>em nível técnico, buscando melhorar minhas habilidades linguísticas para atendimento das tendências do mercado tecnológico, tais como, leitura, escrita e conversação. 
-            </p>
-          </article>
-          <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
-            <h4 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
-              Experiências
-            </h4>
-            <p className="drop-shadow-lg">
-              <span className="text-blue-900 text-lg font-bold ">Web </span>Proficiência em desenvolvimento front-end na criação de páginas, blogs, posters, anúncios, portifólios, banners e também e-commerce.
-              Criando aplicações dos mais diversos tipos, buscando sempre atender de forma clara e concreta todas as pespectivas e projeções estabelecidas na análise do escopo do projeto.  
             </p>
           </article>
       </section>
