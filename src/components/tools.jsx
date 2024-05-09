@@ -4,13 +4,13 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const Tools = () => {
   return (
-    <div className="p-12 mx-8 my-16 rounded shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
+    <div className="p-12 mx-8 my-16 rounded-md shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
 
       <h2 className="text-center text-2xl text-blue-700 font-bold pb-2 uppercase">
-        Sempre busco algo novo para usar e melhorar minhas aplicações. 
+        Sempre busco algo novo para usar e melhorar minhas aplicações
       </h2>
       <h3 className="text-center text-xl text-blue-900 font-bold pb-16">
-        Cada ferramenta proporciona grandes melhorias no desenvolvimento de projetos
+        Cada ferramenta proporciona grandes melhorias no desenvolvimento do projeto
       </h3>
 
       <section className="flex flex-col lg:flex-row justify-between uppercase">
@@ -31,6 +31,7 @@ const Tools = () => {
           <SiExpress className="text-[#000000] size-12 max-md:size-12" />
           <SiPostman className="text-[#DD3A0A] size-12 max-md:size-12" />
           <SiHeroku className="text-[#430098] size-12 max-md:size-12" />
+          <SiAxios className="text-[#000000] size-12 max-md:size-12" />
         </article>
 
         <article className="flex flex-col content-justify items-center gap-3 my-4">
