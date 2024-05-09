@@ -43,7 +43,7 @@ const Stack = () => {
       <p className="mx-40 mb-3 text-gray-800 text-lg">
         Clique nos ícones para interagir!
       </p>
-      <section className="flex flex-row max-lg:flex-wrap justify-center mb-10">
+      <section className="flex flex-row max-lg:flex-wrap justify-center mb-12">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:scale-125 duration-200"  onClick={handleHtml}/>
       <IoLogoCss3 className="text-blue-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:scale-125 duration-200" onClick={handleCss}/>
       <SiBootstrap className="text-blue-700 cursor-pointer m-1 size-12 max-sm:size-18 hover:scale-125 duration-200" onClick={handleBootstrap}/>
