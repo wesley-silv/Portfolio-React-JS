@@ -40,8 +40,8 @@ const Stack = () => {
  
   return (
     <div className="my-40 text-center">
-      <p className="mx-40 mb-3 text-gray-800 text-lg">
-        Clique nos ícones para interagir!
+      <p className="mx-40 mb-3 text-lg text-gray-800 text-lg">
+        Toque para interagir
       </p>
       <section className="flex flex-row max-lg:flex-wrap justify-center mb-12">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:scale-125 duration-200"  onClick={handleHtml}/>

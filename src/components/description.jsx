@@ -38,13 +38,16 @@ const Description = () => {
         </article>
       </section>
       <section className="flex flex-row max-lg:flex-col justify-between items-center max-lg:mx-4">
-          <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
+          <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[24rem] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
             <h4 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
               Experiências
             </h4>
             <p className="drop-shadow-lg">
-              <span className="text-blue-900 text-lg font-bold ">Web </span>Proficiência em desenvolvimento front-end na criação de páginas, blogs, posters, anúncios, portifólios, banners e também e-commerce.
-              Criando aplicações dos mais diversos tipos, buscando sempre atender de forma clara e concreta todas as pespectivas e projeções estabelecidas na análise do escopo do projeto.  
+              <span className="text-blue-900 text-lg font-bold ">KN Leads </span>Proficiência em desenvolvimento front-end na criação de páginas, blogs, posters, anúncios, portifólios, banners, documentação e também e-commerce.
+              Criando aplicações dos mais diversos tipos, buscando sempre atender de forma clara e concreta todas as pespectivas e projeções estabelecidas na análise do escopo do projeto.
+            </p>
+            <p className="drop-shadow-lg">
+              <span className="text-blue-900 text-lg font-bold ">Gerenciamento e Controle de Trânsito </span>Monitoramento e manutenção em radares de fluxo veicular, ajustes em equipamentos de rede, substituição de componentes eletrônicos, configuração e acesso remoto dos equipamentos. Controle de fluxos, iluminações, gestão das frentes de trabalho, orçamentos e gestão das ordens de atividades executadas. 
             </p>
           </article>
         <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
