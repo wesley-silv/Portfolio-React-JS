@@ -1,5 +1,5 @@
 import { FaGitAlt, FaSquareGithub, FaConfluence, FaJira, FaBitbucket, FaNpm} from "react-icons/fa6";
-import { SiMysql, SiMongodb, SiPostman, SiExpress, SiHeroku, SiAxios } from "react-icons/si";
+import { SiMysql, SiMongodb, SiPostman, SiExpress, SiHeroku, SiAxios, SiPrisma, SiPnpm } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 const Tools = () => {
@@ -7,10 +7,10 @@ const Tools = () => {
     <div className="p-12 mx-8 my-16 rounded-md shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
 
       <h2 className="text-center text-2xl text-blue-700 font-bold pb-2 uppercase">
-        Sempre busco algo novo para usar e melhorar minhas aplicações
+        Ferramentas que uso no desenvolvimento de applicações
       </h2>
       <h3 className="text-center text-xl text-blue-900 font-bold pb-16">
-        Cada ferramenta proporciona grandes melhorias no desenvolvimento do projeto
+       Cada ferramenta possui característias únicas que melhoram o desempenho no desenvolvimento
       </h3>
 
       <section className="flex flex-col lg:flex-row justify-between uppercase">
@@ -41,6 +41,7 @@ const Tools = () => {
           <SiMongodb className="text-[#47A248] size-12 max-md:size-12" />
           <SiMysql className="text-[#4479A1] size-12 max-md:size-12" />
           <BiLogoPostgresql className="text-[#4169E1] size-12 max-md:size-12" />
+          <SiPrisma className="text-[#252520] size-12 max-md:size-12" />
         </article>
 
         <article className="flex flex-col content-justify items-center gap-3 my-4">
@@ -49,6 +50,7 @@ const Tools = () => {
           </p>
           <FaConfluence className="text-[#172B4D] size-12 max-md:size-12" />
           <FaJira className="text-[#0052CC] size-12 max-md:size-12" />
+          <SiPnpm className="text-[#cbd71c] size-12 max-md:size-12" />
         </article>
       </section>
     </div>

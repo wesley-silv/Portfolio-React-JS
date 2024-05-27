@@ -6,6 +6,7 @@ import Stack from './components/stack'
 import CodeSample from './components/code-sample'
 import Tools from './components/tools'
 import Description from './components/description'
+import { Projects } from './components/projects'
 
 
 const App = () => {

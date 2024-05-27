@@ -18,7 +18,7 @@ const MenuToggle = () => {
   return (
     <div className="bg-gradient-to-r from-blue-700 to-blue-500 w-full h-16 p-3 relative"> 
       <h2 className='text-2xl font-bold italic text-gray-400 mx-2'>
-        <span className='text-gray-200 font-extrabold'>Porti</span>fólio
+        <span className='text-gray-200 font-extrabold'>Dev</span>eloper
       </h2>
       {/* {
       isList ? openMenu : closeMenu
