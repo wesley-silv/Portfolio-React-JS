@@ -9,7 +9,7 @@ const Description = () => {
           Wesley da Silva 
           </h4>
           <p>
-            <span className="text-blue-900 text-lg font-bold">Ciência da computação</span> <br />Universidade Anhembi Morumbi - SP
+            <span className="text-blue-900 text-xl font-bold">Ciência da computação</span> <br />Universidade Anhembi Morumbi - SP
           </p>
         </article>
 
@@ -18,12 +18,12 @@ const Description = () => {
             Sobre mim
           </h4>
           <p className="m-2">
-            Desenvolverdor web desde o ano de 2021, onde escolhi fazer minha transição de carreira para a área tecnológica. <br />
+            Desenvolvedor web desde o ano de 2021, onde escolhi fazer minha transição de carreira para a área tecnológica. <br />
             Esta decisão com certeza foi uma das melhores decisões que eu já fiz, pois, ela me mostrou o quanto é gratificante ver tão de perto o resultado de todo o meu trabalho. 
           </p>
           <p className="m-2">
-            <span className="text-blue-900 text-lg font-bold">Rocketseat</span> desenvolvimento web focado em JavaScript, React, Vue e Angular <br />
-            <span className="text-blue-900 text-lg font-bold">Alura</span> desenvolvimento web focado em Node, Express, Mongo DB, Mongoose e APIs
+            <span className="text-blue-900 text-xl font-bold">Rocketseat</span> desenvolvimento Web com foco em JavaScript e uso dos frameworks React, Vue e Angular <br />
+            <span className="text-blue-900 text-xl font-bold">Alura</span> desenvolvimento Web voltado para o back-end com uso do Node, Express, Mongo DB, Mongoose e criação e integração de APIs
           </p>
         </article>
         <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[24rem] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
@@ -31,9 +31,9 @@ const Description = () => {
             Competências
           </h4>
           <p className="drop-shadow-lg">
-            <span className="text-blue-900 text-lg font-bold">Front-end</span> HTML, CSS, JavaScript, Bootstrap, React, Vue, Angular <br />
-            <span className="text-blue-900 text-lg font-bold">Back-end</span> Node JS, Express, Mongo DB, Mongoose e Cors para construção e integração de APIs. <br />
-            <span className="text-blue-900 text-lg font-bold">Database</span> MySQL, Maria DB, PostegreSQL e também SQL server. <br />
+            <span className="text-blue-900 text-xl font-bold">Front-end</span> HTML, CSS, JavaScript, Bootstrap, React, Vue, Angular <br />
+            <span className="text-blue-900 text-xl font-bold">Back-end</span> Node JS, Express, Mongo DB, Mongoose e Cors para construção e integração de APIs. <br />
+            <span className="text-blue-900 text-xl font-bold">Database</span> MySQL, Maria DB, PostgreSQL e também SQL. <br />
           </p>
         </article>
       </section>
@@ -43,11 +43,11 @@ const Description = () => {
               Experiências
             </h4>
             <p className="drop-shadow-lg">
-              <span className="text-blue-900 text-lg font-bold ">KN Leads </span>Proficiência em desenvolvimento front-end na criação de páginas, blogs, posters, anúncios, portifólios, banners, documentação e também e-commerce.
-              Criando aplicações dos mais diversos tipos, buscando sempre atender de forma clara e concreta todas as pespectivas e projeções estabelecidas na análise do escopo do projeto.
+              <span className="text-blue-900 text-xl font-bold ">KN Leads </span>Proficiência em desenvolvimento front-end na criação de páginas, blogs, pôsteres, anúncios, portifólios, banners, documentação e também e-commerce.
+              Criando aplicações dos mais diversos tipos, buscando sempre atender de forma clara e concreta todas as perspectivas e projeções estabelecidas na análise do escopo do projeto.
             </p>
             <p className="drop-shadow-lg">
-              <span className="text-blue-900 text-lg font-bold ">Gerenciamento e Controle de Trânsito </span>Monitoramento e manutenção em radares de fluxo veicular, ajustes em equipamentos de rede, substituição de componentes eletrônicos, configuração e acesso remoto dos equipamentos. Controle de fluxos, iluminações, gestão das frentes de trabalho, orçamentos e gestão das ordens de atividades executadas. 
+              <span className="text-blue-900 text-xl font-bold ">Gerenciamento e Controle de Trânsito </span>Monitoramento e manutenção em radares de fluxo veicular, ajustes em equipamentos de rede, substituição de componentes eletrônicos, configuração e acesso remoto dos equipamentos. Controle de fluxos, iluminações, gestão das frentes de trabalho, orçamentos e gestão das ordens de atividades executadas. 
             </p>
           </article>
         <article className="bg-gray-300 flex flex-col items-center shadow-xl rounded-md p-8 m-4 max-lg:mx-auto lg:h-[380px] lg:hover:scale-110 duration-200 lg:hover:cursor-pointer">
@@ -55,10 +55,10 @@ const Description = () => {
               Estudos
             </h4>
             <p className="drop-shadow-lg">
-              <span className="text-blue-900 text-lg font-bold">Graduando </span>em Ciência da Computação, onde estou buscando especializar-me dentro do setor tecnológico, melhorar minhas habilidades e desenvolver novas competências pessoais e profissionais.
+              <span className="text-blue-900 text-xl font-bold">Graduando </span>em Ciência da Computação, onde estou buscando especializar-me dentro do setor tecnológico, melhorar minhas habilidades e desenvolver novas competências pessoais e profissionais.
             </p>
             <p className="drop-shadow-lg">
-              <span className="text-blue-900 text-lg font-bold">Inglês </span>em nível técnico, buscando melhorar minhas habilidades linguísticas para atendimento das tendências do mercado tecnológico, tais como, leitura, escrita e conversação. 
+              <span className="text-blue-900 text-xl font-bold">Inglês </span>ao nível técnico, buscando melhorar minhas habilidades linguísticas para atendimento das tendências do mercado tecnológico, tais como, leitura, escrita e conversação. 
             </p>
           </article>
       </section>

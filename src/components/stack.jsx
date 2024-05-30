@@ -40,8 +40,8 @@ const Stack = () => {
  
   return (
     <div className="my-40 text-center">
-      <p className="mx-40 mb-3 text-lg text-gray-800 text-lg">
-        Toque para interagir
+      <p className="mx-40 mb-3 text-xl text-gray-800 text-lg">
+        Veja como as linguagens e frameworks são utilizados!
       </p>
       <section className="flex flex-row max-lg:flex-wrap justify-center mb-12">
       <IoLogoHtml5 className="text-red-500 cursor-pointer m-1 size-12 max-sm:size-18 hover:scale-125 duration-200"  onClick={handleHtml}/>
@@ -60,7 +60,7 @@ const Stack = () => {
         }
         {
           isCSS ? <></> : <article className="block text-blue-700 bg-gray-200 rounded-md shadow-lg drop-shadow-md p-4 m-2 text-center text-lg">
-             O Cascading Style Sheets ajuda a editar, alinhar, remover e trabalhar no espaço entre os elementos de uma página. A sigla CSS corresponde à expressão em inglês Cascading StyleSheets, que pode ser traduzida como “folhas de estilo em cascata”. O CSS é o responsável por dar todo o charme de uma página Web. 
+             O CSS é o responsável pela formatação dos estilos de uma página Web, com ele é possível alinhar os elementos, colorir fontes, bordas e espaços, adicionar e remover espaços entre os elementos. A sigla CSS corresponde à expressão em inglês Cascading Style Sheets, que pode ser traduzida como “folhas de estilo em cascata”, ele é o responsável por disponibilizar todo o charme em uma página Web. 
           </article>
         }
         {
