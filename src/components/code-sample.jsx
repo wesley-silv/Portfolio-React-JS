@@ -31,7 +31,7 @@ const  CodeSample = ({ letters, time }) => {
   return (
     <div className="my-24 max-md:my-24 mx-4 max-md:mx-0 justify-center">
      <section className="mx-12 p-8 box-border w-auto bg-zinc-800 shadow-lg drop-shadow-lg ">
-      <FaGear className="fill-orange-700 text-4xl animate-pulse duration-500"/>
+      <FaGear className="fill-gray-200 size-8 animate-spin duration-900"/>
      <h2 className="text-orange-500 text-2xl font-extrabold my-2">
         O que eu penso sobre a programação? 
       </h2>

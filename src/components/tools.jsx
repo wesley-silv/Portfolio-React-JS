@@ -7,10 +7,10 @@ const Tools = () => {
     <div className="p-12 mx-8 my-16 rounded-md shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
 
       <h2 className="text-center text-2xl text-blue-700 font-bold pb-2 uppercase">
-        Ferramentas que uso no desenvolvimento de applicações
+        Ferramentas utilizadas no desenvolvimento de aplicações
       </h2>
       <h3 className="text-center text-xl text-blue-900 font-bold pb-16">
-       Cada ferramenta possui característias únicas que melhoram o desempenho no desenvolvimento
+       Cada software possui características únicas que melhoram o desempenho no desenvolvimento de projetos
       </h3>
 
       <section className="flex flex-col lg:flex-row justify-between uppercase">
