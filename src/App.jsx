@@ -1,5 +1,5 @@
 import './App.css'
-import MenuToggle from './components/menu-toggle'
+import Navbar from './components/navbar'
 import Media from './components/media'
 import Banner from './components/banner'
 import Stack from './components/stack'
@@ -21,13 +21,14 @@ const words = ['Olá, o meu nome é Wesley Silva!', 'Eu Sou Desenvolvedor Web Fr
 
   return (
     <div className="app">
-      <MenuToggle />
+      <Navbar />
       <Media />
       <Banner  words={words} time={viewTime}/>
       <Description />
       <CodeSample letters={writing} time={viewLettersTime}/>
       <Stack /> 
       <Tools />
+      {/* <Projects /> */}
     </div>
   )
 }
