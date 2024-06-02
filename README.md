@@ -9,8 +9,14 @@ Currently, two official plugins are available:
 
 ## Personal Portfolio
 
-This portfolio is destined to show my skills of work, technologies and abilities and development in my journey of studies. 
+This portfolio is destined to show my skills of work, technologies and abilities in development of Web application in journey of studies. 
+
+## Status of project 
+
+- Front-end
 
 ## Technologies used in this project
 - React
-- Tailwindcss
+- TailwindCSS
+- Vite
+
