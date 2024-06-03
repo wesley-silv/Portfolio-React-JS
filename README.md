@@ -17,6 +17,9 @@ This portfolio is destined to show my skills of work, technologies and abilities
 
 ## Technologies used in this project
 - React
+- React icons
+- React router DOM
 - TailwindCSS
 - Vite
+- Vercel 
 
