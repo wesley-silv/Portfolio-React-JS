@@ -10,20 +10,21 @@ export const Projects = () => {
             Esta seção contém algumas aplicações desenvolvidas, tais como projetos pessoais, profissionais e também construidos em conjunto com outros programadores.
         </h3>
       <section className='flex flex-row max-lg:flex-col justify-between items-center'>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
-          <h2 className='text-xl'>
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
+          <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             KN Leads docs 
           </h2>
           <img src="" alt="imagem do projeto" />
           <p>
-            Criando com Mintlify
+            Mintlify, MDX, Git e GitHub
           </p>
           <p>
             Documentação de softwares
           </p>
           <ul className='flex gap-4 justify-center m-4 p-4'>
-            <li><a href="https://github.com/judsonjuniorr/knleads-docs" target="blank"></a>
+            <li><a href="https://github.com/judsonjuniorr/knleads-docs" target="blank">
               <FaGithub className='size-8 hover:cursor-pointer hover:fill-red-500'/>
+            </a>
             </li>
             <li>
               <a href="https://docs.knleads.com/starting/introduction" target='blank'>
@@ -32,52 +33,56 @@ export const Projects = () => {
             </li>
           </ul>
         </article>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2  border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
-            KN Leads docs 
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2  border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
+            Calculadora 
           </h2>
           <img src="" alt="imagem do projeto" />
           <p>
-            Criando com Mintlify
+            React, React icons, router e Vite
           </p>
           <p>
-            Documentação de softwares
+            Projeto pessoal
           </p>
           <ul className='flex gap-4 justify-center m-4 p-4'>
-            <li><a href="https://github.com/judsonjuniorr/knleads-docs" target="blank"></a>
-              <FaGithub className='size-8 hover:cursor-pointer hover:fill-red-500'/>
+            <li>
+              <a href="https://github.com/wesley-silv/Calculator-React-JS" target="blank">
+                <FaGithub className='size-8 hover:cursor-pointer hover:fill-red-500'/>
+              </a>
             </li>
             <li>
-              <a href="https://docs.knleads.com/starting/introduction" target='blank'>
+              <a href="https://calculator-react-js-lemon.vercel.app/" target='blank'>
                 <FaLink className='size-8 hover:cursor-pointer hover:fill-red-500'/>
               </a>
             </li>
           </ul>
         </article>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
-            KN Leads docs 
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
+            Busca CEP
           </h2>
           <img src="" alt="imagem do projeto" />
           <p>
-            Criando com Mintlify
+            React, React icons, API e Axios
           </p>
           <p>
-            Documentação de softwares
+            Integração com API
           </p>
           <ul className='flex gap-4 justify-center m-4 p-4'>
-            <li><a href="https://github.com/judsonjuniorr/knleads-docs" target="blank"></a>
-              <FaGithub className='size-8 hover:cursor-pointer hover:fill-red-500'/>
+            <li>
+              <a href="https://github.com/wesley-silv/Search-CEP-React-JS" target="blank">
+                <FaGithub className='size-8 hover:cursor-pointer hover:fill-red-500'/>
+              </a>
             </li>
             <li>
-              <a href="https://docs.knleads.com/starting/introduction" target='blank'>
+              <a href="https://buscador-de-cep-em-react-67h6.vercel.app/" target='blank'>
                 <FaLink className='size-8 hover:cursor-pointer hover:fill-red-500'/>
               </a>
             </li>
           </ul>
         </article>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             KN Leads docs 
           </h2>
           <img src="" alt="imagem do projeto" />
@@ -100,8 +105,8 @@ export const Projects = () => {
         </article>
       </section>
       <section className='flex flex-row max-lg:flex-col justify-between items-center'>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             KN Leads docs 
           </h2>
           <img src="" alt="imagem do projeto" />
@@ -122,8 +127,8 @@ export const Projects = () => {
             </li>
           </ul>
         </article>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2  border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2  border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             KN Leads docs 
           </h2>
           <img src="" alt="imagem do projeto" />
@@ -144,8 +149,8 @@ export const Projects = () => {
             </li>
           </ul>
         </article>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             KN Leads docs 
           </h2>
           <img src="" alt="imagem do projeto" />
@@ -166,8 +171,8 @@ export const Projects = () => {
             </li>
           </ul>
         </article>
-        <article className='m-4 p-8 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
-        <h2 className='text-xl'>
+        <article className='m-4 p-4 widht-auto rounded-md shadow-lg drop-shadow-lg border-solid border-2 border-blue-500 hover:bg-blue-200'>
+        <h2 className="m-4 text-blue-700 text-2xl text-center font-bold drop-shadow-lg">
             KN Leads docs 
           </h2>
           <img src="" alt="imagem do projeto" />
