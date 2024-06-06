@@ -28,7 +28,7 @@ const words = ['Olá, o meu nome é Wesley Silva!', 'Eu Sou Desenvolvedor Web Fr
       <CodeSample letters={writing} time={viewLettersTime}/>
       <Stack /> 
       <Tools />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   )
 }
