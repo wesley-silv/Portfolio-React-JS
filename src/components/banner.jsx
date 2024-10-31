@@ -4,17 +4,15 @@ const Banner = ({ words, time }) => {
   const [indexWord, setIndexWord] = useState(0);
 
   useEffect(() => {
-    // Configura o intervalo para atualizar a palavra exibida
     const intervalId = setInterval(() => {
       setIndexWord((prevIndex) => (prevIndex + 1) % words.length);
     }, time);
 
-    // Limpa o intervalo ao desmontar o componente
     return () => clearInterval(intervalId);
-  }, [words, time]); // palavras e tempo são dependências
+  }, [words, time]);
 
   return (
-    <header className="fixed top-0 w-full bg-indigo-700 text-white shadow-lg flex flex-col items-center py-4 px-6 z-50">
+    <header className="relative w-full text-indigo-700 bg-white shadow-lg flex flex-col items-center py-4 px-6 z-10">
       <div className="flex justify-between w-full max-w-screen-xl items-center">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold italic transition-opacity duration-500 ease-in-out">
