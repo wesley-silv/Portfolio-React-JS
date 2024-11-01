@@ -11,12 +11,13 @@ import Footer from './components/footer';
 
 const App = () => {
   const words = [
-    'Olá, o meu nome é Wesley Silva!', 
-    'Eu Sou Desenvolvedor Web Front-end', 
-    'Seja bem-vindo ao meu portifólio', 
-    'Aqui você saberá mais sobre mim', 
-    'Espero que você goste deste projeto'
+    'Desenvolvedor Web Front-end apaixonado por criar experiências incríveis.',
+    'Transformando ideias em soluções digitais eficazes e também responsivas.',
+    'Seja bem-vindo ao portfólio de um profissional focado em tecnologia.',
+    'Aqui, você encontrará projetos que demonstram inovação e habilidades técnicas.',
+    'Explore o que há de melhor em desenvolvimento web e design de interfaces.'
   ];
+  
   const viewTime = 3000;
 
   const writing = [
