@@ -12,20 +12,21 @@ const Banner = ({ words, time }) => {
   }, [words, time]);
 
   return (
-    <header className="relative w-full text-indigo-700 bg-white shadow-lg flex flex-col items-center py-4 px-6 z-10">
-      <div className="flex justify-between w-full max-w-screen-xl items-center">
-        <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold italic transition-opacity duration-500 ease-in-out">
-            {words[indexWord]}
-          </h1>
-        </div>
-
+    <header className="relative w-full text-center text-indigo-700 bg-gradient-to-r from-blue-500 to-indigo-500 shadow-md py-8 px-6 z-0 mt-8">
+      <div className="flex flex-col items-center w-full max-w-screen-lg mx-auto">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold italic transition-opacity duration-500 ease-in-out text-white">
+          {words[indexWord]}
+        </h1>
+        <p className="mt-4 text-lg sm:text-xl text-white max-w-xl mx-auto">
+          &ldquo;Transformando ideias em interfaces excepcionais e solucionando
+          desafios digitais. Vamos moldar o futuro da web juntos!&ldquo;
+        </p>
         <a
-          href="#main-content"
-          className="ml-4 px-4 py-2 bg-white text-indigo-700 font-bold rounded-lg hover:bg-indigo-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          href="#projects"
+          className="mt-6 px-6 py-2 bg-white text-indigo-700 font-bold rounded-lg shadow-md hover:bg-indigo-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           aria-label="Ir para o conteúdo principal"
         >
-          Acessar Conteúdo
+          Explore meus projetos
         </a>
       </div>
     </header>

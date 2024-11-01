@@ -1,7 +1,7 @@
-import { FaGear } from "react-icons/fa6";
+import { FaCode } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 
-const  CodeSample = ({ letters, time }) => {
+const CodeSample = ({ letters, time }) => {
   const [indexLetter, setIndexLetter] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
 
@@ -27,18 +27,22 @@ const  CodeSample = ({ letters, time }) => {
     return () => clearInterval(intervalId);
   }, [letters, time, indexLetter]);
 
-    
   return (
-    <div className="my-24 max-md:my-24 mx-4 max-md:mx-0 justify-center">
-     <section className="mx-12 p-8 box-border w-auto bg-zinc-800 shadow-lg drop-shadow-lg ">
-      <FaGear className="fill-gray-200 size-8 animate-spin duration-900"/>
-     <h2 className="text-orange-500 text-2xl font-extrabold my-2">
-        O que eu penso sobre a programação? 
-      </h2>
-      <p className="mb-4 text-xl text-wrap indent-8 italic text-gray-200 drop-shadow-lg">
-        {displayedText}
-      </p>
-     </section>
+    <div className="flex justify-center my-40 mx-4 md:my-44">
+      <section className="relative w-full max-w-3xl bg-gray-800 shadow-lg p-8 rounded-lg text-gray-300">
+        {/* Ícone fixo e centralizado */}
+        <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 p-2 bg-gray-800 rounded-full shadow-md">
+          <FaCode className="text-indigo-400 text-3xl" />
+        </div>
+
+        {/* Título e Texto */}
+        <h2 className="text-2xl font-bold text-orange-500 text-center mb-4">
+          O que eu penso sobre a programação?
+        </h2>
+        <p className="text-lg md:text-xl italic leading-relaxed text-center">
+          {displayedText}
+        </p>
+      </section>
     </div>
   );
 };
