@@ -11,10 +11,10 @@ const Media = () => {
   };
 
   return (
-    <div className="fixed top-1/2 left-0 transform -translate-y-1/2 z-10 flex items-center">
+    <div className="fixed top-1/3 left-0 transform -translate-y-1/2 z-10 flex items-center">
       {/* Botão de abrir/fechar, posicionado fora do container */}
       <div
-        className="absolute left-0 ml-2 p-2 rounded-full bg-indigo-600 text-white cursor-pointer z-20 hover:scale-110 transition-transform duration-300"
+        className="absolute left-0 ml-2 p-1 rounded-full bg-indigo-700 text-white cursor-pointer z-20 hover:scale-110 transition-transform duration-300"
         title={isOpen ? "Fechar mídia" : "Abrir mídia"}
         onClick={toggleMedia}
       >
@@ -29,7 +29,7 @@ const Media = () => {
       <div
         className={`${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } bg-blue-300 p-4 pl-10 rounded-r-lg border-2 border-blue-500 transition-transform duration-500 ease-in-out flex items-center`}
+        } bg-blue-900 bg-opacity-95 p-4 pl-10 rounded-r-lg border-2 border-blue-500 transition-transform duration-500 ease-in-out flex items-center`}
       >
         {/* Links de mídia social exibidos somente quando o container está aberto */}
         {isOpen && (

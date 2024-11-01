@@ -7,6 +7,7 @@ import CodeSample from './components/code-sample';
 import Tools from './components/tools';
 import Description from './components/description';
 import { Projects } from './components/projects';
+import Footer from './components/footer';
 
 const App = () => {
   const words = [
@@ -36,6 +37,7 @@ const App = () => {
         <Stack /> 
         <Tools />
         <Projects />
+        <Footer />
       </div>
     </div>
   );

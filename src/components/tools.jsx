@@ -4,9 +4,9 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const Tools = () => {
   return (
-    <div className="p-12 mx-8 my-16 rounded-md shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
+    <div className="p-12 mx-10 my-44 rounded-md shadow-lg drop-shadow-lg bg-gradient-to-b from-blue-200 to-gray-400">
       <h2 className="text-center text-3xl text-blue-700 font-bold pb-2 uppercase">
-        Ferramentas utilizadas no desenvolvimento de aplicações
+        Ferramentas de integração em aplicações
       </h2>
       <h3 className="text-center text-lg text-blue-900 font-semibold pb-12">
         Cada software possui características únicas que melhoram o desempenho no desenvolvimento de projetos
