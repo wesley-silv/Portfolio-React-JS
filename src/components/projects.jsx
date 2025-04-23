@@ -19,12 +19,12 @@ export const Projects = () => {
             <p className="text-gray-600 mb-6 text-justify">{project.description}</p>
             <ul className="flex justify-center gap-6">
               <li>
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" aria-label="GitHub" title='Repositório'>
                   <FaSquareGithub className="text-3xl text-blue-700 hover:text-blue-900 transition-colors" />
                 </a>
               </li>
               <li>
-                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" aria-label="Live Project">
+                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" aria-label="Live Project" title='Projeto'>
                   <FaLink className="text-3xl text-blue-700 hover:text-blue-900 transition-colors" />
                 </a>
               </li>
@@ -36,7 +36,7 @@ export const Projects = () => {
   );
 };
 
-// Dados dos projetos (exemplo)
+// Projects dates
 const projects = [
   {
     title: 'KN Leads Docs',
@@ -65,5 +65,12 @@ const projects = [
     description: 'Organograma para visualização de hierarquia organizacional, desenvolvido com integração de API.',
     githubLink: 'https://github.com/wesley-silv/Organogram-React-JS',
     liveLink: 'https://react-app-organo-ct1x-d9922o0b5-wesley-silv.vercel.app/',
+  },
+  {
+    title: 'Cálculos Financeiros',
+    techStack: 'HTML, CSS, JavaScript, Node.js, Express, Nodemon e BRAPI',
+    description: 'Matemática financeira para investimentos, desenvolvido com integração de API para consulta de cotações.',
+    githubLink: 'https://github.com/wesley-silv/Maths-calcs',
+    liveLink: 'https://mathscalcs.vercel.app',
   },
 ];
