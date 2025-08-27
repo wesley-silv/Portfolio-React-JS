@@ -18,15 +18,15 @@ const Banner = ({ words, time }) => {
           {words[indexWord]}
         </h1>
         <p className="mt-4 text-lg sm:text-xl text-white max-w-xl mx-auto">
-          &ldquo;Transformando ideias em interfaces excepcionais e solucionando
-          desafios digitais. Vamos moldar o futuro da web juntos!&ldquo;
+          &ldquo;Transforme ideias em projetos reais, crie e integre os seus
+          desafios digitais.&ldquo;
         </p>
         <a
           href="#projects"
           className="mt-6 px-6 py-2 bg-white text-indigo-700 font-bold rounded-lg shadow-md hover:bg-indigo-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           aria-label="Ir para o conteúdo principal"
         >
-          Explore meus projetos
+          Explorar Projetos
         </a>
       </div>
     </header>
