@@ -10,10 +10,10 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex items-center justify-between bg-gradient-to-r from-blue-800 to-blue-500 w-full h-16 px-6 shadow-lg relative z-20">
+    <header className="flex items-center justify-between bg-gradient-to-r from-blue-800 to-blue-500 w-full h-16 px-4 mb-16 shadow-xl relative z-20">
       {/* Logo Section */}
       <h1 className="text-white text-3xl font-bold italic tracking-wide">
-        <span className="text-yellow-300">Dev</span>eloper
+        <span className="text-blue-200">Front</span><sub className='text-blue-300'>end</sub>
       </h1>
 
       {/* Menu Icon (always on top) */}
