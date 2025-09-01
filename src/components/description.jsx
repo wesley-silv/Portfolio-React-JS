@@ -8,9 +8,9 @@ const Description = () => {
         <article className="bg-gray-100 flex flex-col items-center shadow-lg rounded-lg p-8 m-4 max-lg:mx-auto md:w-full lg:w-[48%]">
           <div className="relative p-1 rounded-lg overflow-hidden">
             <img
-              src="/Wesley Silva Conceição.png"
+              src="/profile-img.png"
               alt="Wesley Silva"
-              className="rounded-lg object-cover w-60 h-60"
+              className="rounded-lg object-cover w-60 h-62"
             />
           </div>
           <h4 className="mt-6 text-blue-700 text-2xl font-bold text-center">
