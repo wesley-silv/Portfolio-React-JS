@@ -103,4 +103,12 @@ const projects = [
     liveLink: 'https://mathscalcs.vercel.app',
     image: 'https://raw.githubusercontent.com/wesley-silv/Maths-calcs/main/public/cover.png',
   },
+  {
+    title: 'Automação Redes',
+    techStack: 'Python, Subprocess, Json, Tkinter',
+    description: 'Automação de configuração de redes IPs/DHCP utilizando bibliotecas Python para gerenciamento de dispositivos de rede.',
+    githubLink: 'https://github.com/wesley-silv/Network-auto-config_Python',
+    liveLink: 'https://',
+    image: '/Code and GUI - Network config auto Fiscaltech.png',
+  }
 ];
